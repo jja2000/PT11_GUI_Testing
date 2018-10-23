@@ -1,0 +1,10 @@
+C:\Users\lfran\source\repos\ProjectArse\Statistics\bin\Debug\Statistics.exe.config
+C:\Users\lfran\source\repos\ProjectArse\Statistics\bin\Debug\Statistics.exe
+C:\Users\lfran\source\repos\ProjectArse\Statistics\bin\Debug\Statistics.pdb
+C:\Users\lfran\source\repos\ProjectArse\Statistics\obj\Debug\Statistics.csprojAssemblyReference.cache
+C:\Users\lfran\source\repos\ProjectArse\Statistics\obj\Debug\Statistics.Statistics.resources
+C:\Users\lfran\source\repos\ProjectArse\Statistics\obj\Debug\Statistics.Properties.Resources.resources
+C:\Users\lfran\source\repos\ProjectArse\Statistics\obj\Debug\Statistics.csproj.GenerateResource.cache
+C:\Users\lfran\source\repos\ProjectArse\Statistics\obj\Debug\Statistics.csproj.CoreCompileInputs.cache
+C:\Users\lfran\source\repos\ProjectArse\Statistics\obj\Debug\Statistics.exe
+C:\Users\lfran\source\repos\ProjectArse\Statistics\obj\Debug\Statistics.pdb

@@ -1,0 +1,14 @@
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\bin\Debug\ProjectArse.exe.config
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\bin\Debug\ProjectArse.exe
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\bin\Debug\ProjectArse.pdb
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.csprojAssemblyReference.cache
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.Properties.Resources.resources
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.csproj.GenerateResource.cache
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.csproj.CoreCompileInputs.cache
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.exe
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.pdb
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.Start.resources
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.Form2.resources
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.Form4.resources
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.Form3.resources
+C:\Users\lfran\source\repos\ProjectArse\ProjectArse\obj\Debug\ProjectArse.Form5.resources
