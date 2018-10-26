@@ -1,4 +1,4 @@
-﻿namespace ProjectArse
+﻿namespace ProjectMarse
 {
     partial class Start
     {
@@ -82,7 +82,7 @@
             // 
             // pictureBoxStatistics
             // 
-            this.pictureBoxStatistics.BackgroundImage = global::ProjectArse.Properties.Resources.Statistieknormaal;
+            this.pictureBoxStatistics.BackgroundImage = global::ProjectMarse.Properties.Resources.Statistieknormaal;
             this.pictureBoxStatistics.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBoxStatistics.Location = new System.Drawing.Point(368, 270);
             this.pictureBoxStatistics.Name = "pictureBoxStatistics";

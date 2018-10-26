@@ -1,4 +1,4 @@
-﻿namespace ProjectArse
+﻿namespace ProjectMarse
 {
     partial class Form5
     {

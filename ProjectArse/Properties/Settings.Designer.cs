@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ProjectArse.Properties
+namespace ProjectMarse.Properties
 {
 
 

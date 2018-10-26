@@ -1,4 +1,4 @@
-﻿namespace ProjectArse
+﻿namespace ProjectMarse
 {
     partial class Form2
     {
@@ -161,7 +161,7 @@
             // 
             // pictureBoxBack
             // 
-            this.pictureBoxBack.BackgroundImage = global::ProjectArse.Properties.Resources.Terugnormaal;
+            this.pictureBoxBack.BackgroundImage = global::ProjectMarse.Properties.Resources.Terugnormaal;
             this.pictureBoxBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBoxBack.Location = new System.Drawing.Point(17, 255);
             this.pictureBoxBack.Name = "pictureBoxBack";
