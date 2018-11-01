@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start));
             this.labelMap = new System.Windows.Forms.Label();
-            this.pictureBoxNotConnected = new System.Windows.Forms.PictureBox();
             this.pictureBoxMap = new System.Windows.Forms.PictureBox();
             this.pictureBoxStatistics = new System.Windows.Forms.PictureBox();
             this.pictureBoxStop = new System.Windows.Forms.PictureBox();
@@ -38,7 +37,6 @@
             this.pictureBoxConnection = new System.Windows.Forms.PictureBox();
             this.pictureBoxHistory = new System.Windows.Forms.PictureBox();
             this.pictureBoxStart = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNotConnected)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMap)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStatistics)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStop)).BeginInit();
@@ -58,19 +56,6 @@
             this.labelMap.Size = new System.Drawing.Size(51, 25);
             this.labelMap.TabIndex = 45;
             this.labelMap.Text = "Map";
-            // 
-            // pictureBoxNotConnected
-            // 
-            this.pictureBoxNotConnected.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxNotConnected.BackgroundImage")));
-            this.pictureBoxNotConnected.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxNotConnected.Location = new System.Drawing.Point(17, 326);
-            this.pictureBoxNotConnected.Name = "pictureBoxNotConnected";
-            this.pictureBoxNotConnected.Size = new System.Drawing.Size(156, 53);
-            this.pictureBoxNotConnected.TabIndex = 46;
-            this.pictureBoxNotConnected.TabStop = false;
-            this.pictureBoxNotConnected.Click += new System.EventHandler(this.pictureBoxNotConnected_Click);
-            this.pictureBoxNotConnected.MouseEnter += new System.EventHandler(this.pictureBoxNotConnected_MouseEnter);
-            this.pictureBoxNotConnected.MouseLeave += new System.EventHandler(this.pictureBoxNotConnected_MouseLeave);
             // 
             // pictureBoxMap
             // 
@@ -123,7 +108,7 @@
             // 
             // pictureBoxConnection
             // 
-            this.pictureBoxConnection.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxConnection.BackgroundImage")));
+            this.pictureBoxConnection.BackgroundImage = global::ProjectMarse.Properties.Resources.Nietverbondennormaal;
             this.pictureBoxConnection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBoxConnection.Location = new System.Drawing.Point(17, 327);
             this.pictureBoxConnection.Name = "pictureBoxConnection";
@@ -166,7 +151,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(83)))), ((int)(((byte)(87)))));
             this.ClientSize = new System.Drawing.Size(562, 413);
-            this.Controls.Add(this.pictureBoxNotConnected);
             this.Controls.Add(this.labelMap);
             this.Controls.Add(this.pictureBoxMap);
             this.Controls.Add(this.pictureBoxStatistics);
@@ -177,7 +161,7 @@
             this.Controls.Add(this.pictureBoxStart);
             this.Name = "Start";
             this.Text = " M.A.R.S.E.";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNotConnected)).EndInit();
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Start_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMap)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStatistics)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStop)).EndInit();
@@ -192,14 +176,13 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBoxHistory;
-        private System.Windows.Forms.PictureBox pictureBoxConnection;
         private System.Windows.Forms.PictureBox pictureBoxRemote;
         private System.Windows.Forms.PictureBox pictureBoxStop;
         private System.Windows.Forms.PictureBox pictureBoxStart;
         private System.Windows.Forms.PictureBox pictureBoxStatistics;
         private System.Windows.Forms.PictureBox pictureBoxMap;
         private System.Windows.Forms.Label labelMap;
-        private System.Windows.Forms.PictureBox pictureBoxNotConnected;
+        public System.Windows.Forms.PictureBox pictureBoxConnection;
     }
 }
 

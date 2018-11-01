@@ -74,6 +74,7 @@
             this.disconnectButton.TabIndex = 9;
             this.disconnectButton.Text = "Disconnect";
             this.disconnectButton.UseVisualStyleBackColor = true;
+            this.disconnectButton.Click += new System.EventHandler(this.disconnectButton_Click);
             // 
             // connectButton
             // 
@@ -98,7 +99,7 @@
             this.pictureBack.MouseEnter += new System.EventHandler(this.pictureBack_MouseEnter);
             this.pictureBack.MouseLeave += new System.EventHandler(this.pictureBack_MouseLeave);
             // 
-            // Form5
+            // EV3Connect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,7 +111,7 @@
             this.Controls.Add(this.connectButton);
             this.Controls.Add(this.connectedDeviceLabel);
             this.Controls.Add(this.disconnectButton);
-            this.Name = "Form5";
+            this.Name = "EV3Connect";
             this.Text = "Connection EV3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBack)).EndInit();
             this.ResumeLayout(false);
@@ -119,11 +120,11 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox ipAddressBox;
-        private System.Windows.Forms.Label connectedDeviceLabel;
-        private System.Windows.Forms.Button disconnectButton;
-        private System.Windows.Forms.Button connectButton;
         private System.Windows.Forms.PictureBox pictureBack;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.TextBox ipAddressBox;
+        public System.Windows.Forms.Label connectedDeviceLabel;
+        public System.Windows.Forms.Button disconnectButton;
+        public System.Windows.Forms.Button connectButton;
     }
 }

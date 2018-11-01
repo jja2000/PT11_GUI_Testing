@@ -230,5 +230,47 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VerbindingMin.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signal1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\one1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\two1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\three1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mapping1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mapping2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mapping3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mapping4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mapping5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EV3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
