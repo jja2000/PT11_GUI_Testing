@@ -242,7 +242,7 @@ namespace ProjectMarse
                 if (i == 0)
                 {
                     this.pictureBoxMap.Image = null;
-                    if (e.KeyCode == Keys.Right)
+                    if (e.KeyCode == Keys.PageDown)
                     {
                         i++;
                     }
@@ -250,7 +250,7 @@ namespace ProjectMarse
                 else if (i == 1)
                 {
                     this.pictureBoxMap.Image = ((System.Drawing.Image)(Properties.Resources.Mapping1));
-                    if (e.KeyCode == Keys.Right)
+                    if (e.KeyCode == Keys.PageDown)
                     {
                         i++;
                     }
@@ -258,7 +258,7 @@ namespace ProjectMarse
                 else if (i == 2)
                 {
                     this.pictureBoxMap.Image = ((System.Drawing.Image)(Properties.Resources.Mapping2));
-                    if (e.KeyCode == Keys.Right)
+                    if (e.KeyCode == Keys.PageDown)
                     {
                         i++;
                     }
@@ -266,7 +266,7 @@ namespace ProjectMarse
                 else if (i == 3)
                 {
                     this.pictureBoxMap.Image = ((System.Drawing.Image)(Properties.Resources.Mapping3));
-                    if (e.KeyCode == Keys.Right)
+                    if (e.KeyCode == Keys.PageDown)
                     {
                         i++;
                     }
@@ -275,7 +275,7 @@ namespace ProjectMarse
                 else if (i == 4)
                 {
                     this.pictureBoxMap.Image = ((System.Drawing.Image)(Properties.Resources.Mapping4));
-                    if (e.KeyCode == Keys.Right)
+                    if (e.KeyCode == Keys.PageDown)
                     {
                         i++;
                     }
@@ -284,7 +284,7 @@ namespace ProjectMarse
                 else if (i == 5)
                 {
                     this.pictureBoxMap.Image = ((System.Drawing.Image)(Properties.Resources.Mapping5));
-                    if (e.KeyCode == Keys.Right)
+                    if (e.KeyCode == Keys.PageDown)
                     {
                         i++;
                     }
