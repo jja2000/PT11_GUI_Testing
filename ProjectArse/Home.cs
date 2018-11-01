@@ -58,14 +58,13 @@ namespace ProjectMarse
                     if (strMessage != "")
                     {
                         string[] data = strMessage.Split(' ');
-                        if (data.Length == 4)
+                        if (data.Length == 3)
                         {
                             foreach (Secundair statistics in Application.OpenForms.OfType<Secundair>())
                             {
-                                statistics.Angle = Convert.ToInt32(data[0]);
-                                statistics.USDistance = Convert.ToInt32(data[1]);
-                                statistics.SonarDistanceRechts = Convert.ToInt32(data[2]);
-                                statistics.SonarDistanceLinks = Convert.ToInt32(data[3]);
+                                statistics.USDistance = Convert.ToInt32(data[0]);
+                                statistics.SonarDistanceRechts = Convert.ToInt32(data[1]);
+                                statistics.SonarDistanceLinks = Convert.ToInt32(data[2]);
                             }
                         }
                     }
